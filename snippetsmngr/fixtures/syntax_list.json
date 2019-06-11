@@ -1,0 +1,1525 @@
+[
+  {
+    "pk": 1,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "APL",
+      "mime_type": "text/apl",
+      "mode": "apl",
+      "ext": "dyalog"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "PGP",
+      "mime_type": "application/pgp",
+      "mode": "asciiarmor",
+      "ext": "asc"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "ASN.1",
+      "mime_type": "text/x-ttcn-asn",
+      "mode": "asn.1",
+      "ext": "asn"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Asterisk",
+      "mime_type": "text/x-asterisk",
+      "mode": "asterisk"
+    }
+  },
+  {
+    "pk": 5,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Brainfuck",
+      "mime_type": "text/x-brainfuck",
+      "mode": "brainfuck",
+      "ext": "b"
+    }
+  },
+  {
+    "pk": 6,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "C",
+      "mime_type": "text/x-csrc",
+      "mode": "clike",
+      "ext": "c"
+    }
+  },
+  {
+    "pk": 7,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "C++",
+      "mime_type": "text/x-c++src",
+      "mode": "clike",
+      "ext": "cpp"
+    }
+  },
+  {
+    "pk": 8,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Cobol",
+      "mime_type": "text/x-cobol",
+      "mode": "cobol",
+      "ext": "cob"
+    }
+  },
+  {
+    "pk": 9,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "C#",
+      "mime_type": "text/x-csharp",
+      "mode": "clike",
+      "ext": "cs"
+    }
+  },
+  {
+    "pk": 10,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Clojure",
+      "mime_type": "text/x-clojure",
+      "mode": "clojure",
+      "ext": "clj"
+    }
+  },
+  {
+    "pk": 11,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "ClojureScript",
+      "mime_type": "text/x-clojurescript",
+      "mode": "clojure",
+      "ext": "cljs"
+    }
+  },
+  {
+    "pk": 12,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Closure Stylesheets (GSS)",
+      "mime_type": "text/x-gss",
+      "mode": "css",
+      "ext": "gss"
+    }
+  },
+  {
+    "pk": 13,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "CMake",
+      "mime_type": "text/x-cmake",
+      "mode": "cmake",
+      "ext": "cmake"
+    }
+  },
+  {
+    "pk": 14,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "CoffeeScript",
+      "mime_type": "application/vnd.coffeescript",
+      "mode": "coffeescript",
+      "ext": "coffee"
+    }
+  },
+  {
+    "pk": 15,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Common Lisp",
+      "mime_type": "text/x-common-lisp",
+      "mode": "commonlisp",
+      "ext": "cl"
+    }
+  },
+  {
+    "pk": 16,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Cypher",
+      "mime_type": "application/x-cypher-query",
+      "mode": "cypher",
+      "ext": "cyp"
+    }
+  },
+  {
+    "pk": 17,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Cython",
+      "mime_type": "text/x-cython",
+      "mode": "python",
+      "ext": "pyx"
+    }
+  },
+  {
+    "pk": 18,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Crystal",
+      "mime_type": "text/x-crystal",
+      "mode": "crystal",
+      "ext": "cr"
+    }
+  },
+  {
+    "pk": 19,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "CSS",
+      "mime_type": "text/css",
+      "mode": "css",
+      "ext": "css",
+      "optgroup": "cm"
+    }
+  },
+  {
+    "pk": 20,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "CQL",
+      "mime_type": "text/x-cassandra",
+      "mode": "sql",
+      "ext": "cql"
+    }
+  },
+  {
+    "pk": 21,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "D",
+      "mime_type": "text/x-d",
+      "mode": "d",
+      "ext": "d"
+    }
+  },
+  {
+    "pk": 22,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Dart",
+      "mime_type": "application/dart",
+      "mode": "dart",
+      "ext": "dart"
+    }
+  },
+  {
+    "pk": 23,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "diff",
+      "mime_type": "text/x-diff",
+      "mode": "diff",
+      "ext": "diff"
+    }
+  },
+  {
+    "pk": 24,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Django",
+      "mime_type": "text/x-django",
+      "mode": "django"
+    }
+  },
+  {
+    "pk": 25,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Dockerfile",
+      "mime_type": "text/x-dockerfile",
+      "mode": "dockerfile"
+    }
+  },
+  {
+    "pk": 26,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "DTD",
+      "mime_type": "application/xml-dtd",
+      "mode": "dtd",
+      "ext": "dtd"
+    }
+  },
+  {
+    "pk": 27,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Dylan",
+      "mime_type": "text/x-dylan",
+      "mode": "dylan",
+      "ext": "dylan"
+    }
+  },
+  {
+    "pk": 28,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "EBNF",
+      "mime_type": "text/x-ebnf",
+      "mode": "ebnf"
+    }
+  },
+  {
+    "pk": 29,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "ECL",
+      "mime_type": "text/x-ecl",
+      "mode": "ecl",
+      "ext": "ecl"
+    }
+  },
+  {
+    "pk": 30,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "edn",
+      "mime_type": "application/edn",
+      "mode": "clojure",
+      "ext": "edn"
+    }
+  },
+  {
+    "pk": 31,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Eiffel",
+      "mime_type": "text/x-eiffel",
+      "mode": "eiffel",
+      "ext": "e"
+    }
+  },
+  {
+    "pk": 32,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Elm",
+      "mime_type": "text/x-elm",
+      "mode": "elm",
+      "ext": "elm"
+    }
+  },
+  {
+    "pk": 33,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Embedded Javascript",
+      "mime_type": "application/x-ejs",
+      "mode": "htmlembedded",
+      "ext": "ejs"
+    }
+  },
+  {
+    "pk": 34,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Embedded Ruby",
+      "mime_type": "application/x-erb",
+      "mode": "htmlembedded",
+      "ext": "erb"
+    }
+  },
+  {
+    "pk": 35,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Erlang",
+      "mime_type": "text/x-erlang",
+      "mode": "erlang",
+      "ext": "erl"
+    }
+  },
+  {
+    "pk": 36,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Esper",
+      "mime_type": "text/x-esper",
+      "mode": "sql"
+    }
+  },
+  {
+    "pk": 37,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Factor",
+      "mime_type": "text/x-factor",
+      "mode": "factor",
+      "ext": "factor"
+    }
+  },
+  {
+    "pk": 38,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "FCL",
+      "mime_type": "text/x-fcl",
+      "mode": "fcl"
+    }
+  },
+  {
+    "pk": 39,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Forth",
+      "mime_type": "text/x-forth",
+      "mode": "forth",
+      "ext": "forth"
+    }
+  },
+  {
+    "pk": 40,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Fortran",
+      "mime_type": "text/x-fortran",
+      "mode": "fortran",
+      "ext": "f"
+    }
+  },
+  {
+    "pk": 41,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "F#",
+      "mime_type": "text/x-fsharp",
+      "mode": "mllike",
+      "ext": "fs"
+    }
+  },
+  {
+    "pk": 42,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Gas",
+      "mime_type": "text/x-gas",
+      "mode": "gas",
+      "ext": "s"
+    }
+  },
+  {
+    "pk": 43,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Gherkin",
+      "mime_type": "text/x-feature",
+      "mode": "gherkin",
+      "ext": "feature"
+    }
+  },
+  {
+    "pk": 44,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "GitHub Flavored Markdown",
+      "mime_type": "text/x-gfm",
+      "mode": "gfm"
+    }
+  },
+  {
+    "pk": 45,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Go",
+      "mime_type": "text/x-go",
+      "mode": "go",
+      "ext": "go"
+    }
+  },
+  {
+    "pk": 46,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Groovy",
+      "mime_type": "text/x-groovy",
+      "mode": "groovy",
+      "ext": "groovy"
+    }
+  },
+  {
+    "pk": 47,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "HAML",
+      "mime_type": "text/x-haml",
+      "mode": "haml",
+      "ext": "haml"
+    }
+  },
+  {
+    "pk": 48,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Haskell",
+      "mime_type": "text/x-haskell",
+      "mode": "haskell",
+      "ext": "hs"
+    }
+  },
+  {
+    "pk": 49,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Haskell (Literate)",
+      "mime_type": "text/x-literate-haskell",
+      "mode": "haskell-literate",
+      "ext": "lhs"
+    }
+  },
+  {
+    "pk": 50,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Haxe",
+      "mime_type": "text/x-haxe",
+      "mode": "haxe",
+      "ext": "hx"
+    }
+  },
+  {
+    "pk": 51,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "HXML",
+      "mime_type": "text/x-hxml",
+      "mode": "haxe",
+      "ext": "hxml"
+    }
+  },
+  {
+    "pk": 52,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "ASP.NET",
+      "mime_type": "application/x-aspx",
+      "mode": "htmlembedded",
+      "ext": "aspx"
+    }
+  },
+  {
+    "pk": 53,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "HTML",
+      "mime_type": "text/html",
+      "mode": "htmlmixed",
+      "ext": "html",
+      "optgroup": "cm"
+    }
+  },
+  {
+    "pk": 54,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "HTTP",
+      "mime_type": "message/http",
+      "mode": "http"
+    }
+  },
+  {
+    "pk": 55,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "IDL",
+      "mime_type": "text/x-idl",
+      "mode": "idl",
+      "ext": "pro"
+    }
+  },
+  {
+    "pk": 56,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Pug",
+      "mime_type": "text/x-pug",
+      "mode": "pug",
+      "ext": "jade"
+    }
+  },
+  {
+    "pk": 57,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Java",
+      "mime_type": "text/x-java",
+      "mode": "clike",
+      "ext": "java"
+    }
+  },
+  {
+    "pk": 58,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Java Server Pages",
+      "mime_type": "application/x-jsp",
+      "mode": "htmlembedded",
+      "ext": "jsp"
+    }
+  },
+  {
+    "pk": 59,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "JavaScript",
+      "mime_type": "text/javascript",
+      "mode": "javascript",
+      "ext": "js"
+    }
+  },
+  {
+    "pk": 60,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "JSON",
+      "mime_type": "application/json",
+      "mode": "javascript",
+      "ext": "json"
+    }
+  },
+  {
+    "pk": 61,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "JSON-LD",
+      "mime_type": "application/ld+json",
+      "mode": "javascript",
+      "ext": "jsonld"
+    }
+  },
+  {
+    "pk": 62,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "JSX",
+      "mime_type": "text/jsx",
+      "mode": "jsx",
+      "ext": "jsx"
+    }
+  },
+  {
+    "pk": 63,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Jinja2",
+      "mime_type": "text/jinja2",
+      "mode": "jinja2",
+      "ext": "j2"
+    }
+  },
+  {
+    "pk": 64,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Julia",
+      "mime_type": "text/x-julia",
+      "mode": "julia",
+      "ext": "jl"
+    }
+  },
+  {
+    "pk": 65,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Kotlin",
+      "mime_type": "text/x-kotlin",
+      "mode": "clike",
+      "ext": "kt"
+    }
+  },
+  {
+    "pk": 66,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "LESS",
+      "mime_type": "text/x-less",
+      "mode": "css",
+      "ext": "less"
+    }
+  },
+  {
+    "pk": 67,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "LiveScript",
+      "mime_type": "text/x-livescript",
+      "mode": "livescript",
+      "ext": "ls"
+    }
+  },
+  {
+    "pk": 68,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Lua",
+      "mime_type": "text/x-lua",
+      "mode": "lua",
+      "ext": "lua"
+    }
+  },
+  {
+    "pk": 69,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Markdown",
+      "mime_type": "text/x-markdown",
+      "mode": "markdown",
+      "ext": "markdown"
+    }
+  },
+  {
+    "pk": 70,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "mIRC",
+      "mime_type": "text/mirc",
+      "mode": "mirc"
+    }
+  },
+  {
+    "pk": 71,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "MariaDB SQL",
+      "mime_type": "text/x-mariadb",
+      "mode": "sql"
+    }
+  },
+  {
+    "pk": 72,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Mathematica",
+      "mime_type": "text/x-mathematica",
+      "mode": "mathematica",
+      "ext": "m"
+    }
+  },
+  {
+    "pk": 73,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Modelica",
+      "mime_type": "text/x-modelica",
+      "mode": "modelica",
+      "ext": "mo"
+    }
+  },
+  {
+    "pk": 74,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "MUMPS",
+      "mime_type": "text/x-mumps",
+      "mode": "mumps",
+      "ext": "mps"
+    }
+  },
+  {
+    "pk": 75,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "MS SQL",
+      "mime_type": "text/x-mssql",
+      "mode": "sql"
+    }
+  },
+  {
+    "pk": 76,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "mbox",
+      "mime_type": "application/mbox",
+      "mode": "mbox",
+      "ext": "mbox"
+    }
+  },
+  {
+    "pk": 77,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "MySQL",
+      "mime_type": "text/x-mysql",
+      "mode": "sql"
+    }
+  },
+  {
+    "pk": 78,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Nginx",
+      "mime_type": "text/x-nginx-conf",
+      "mode": "nginx"
+    }
+  },
+  {
+    "pk": 79,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "NSIS",
+      "mime_type": "text/x-nsis",
+      "mode": "nsis",
+      "ext": "nsh"
+    }
+  },
+  {
+    "pk": 80,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "NTriples",
+      "mime_type": "application/n-triples",
+      "mode": "ntriples",
+      "ext": "nt"
+    }
+  },
+  {
+    "pk": 81,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Objective-C",
+      "mime_type": "text/x-objectivec",
+      "mode": "clike",
+      "ext": "m"
+    }
+  },
+  {
+    "pk": 82,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "OCaml",
+      "mime_type": "text/x-ocaml",
+      "mode": "mllike",
+      "ext": "ml"
+    }
+  },
+  {
+    "pk": 83,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Octave",
+      "mime_type": "text/x-octave",
+      "mode": "octave",
+      "ext": "m"
+    }
+  },
+  {
+    "pk": 84,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Oz",
+      "mime_type": "text/x-oz",
+      "mode": "oz",
+      "ext": "oz"
+    }
+  },
+  {
+    "pk": 85,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Pascal",
+      "mime_type": "text/x-pascal",
+      "mode": "pascal",
+      "ext": "p"
+    }
+  },
+  {
+    "pk": 86,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "PEG.js",
+      "mime_type": "null",
+      "mode": "pegjs",
+      "ext": "jsonld"
+    }
+  },
+  {
+    "pk": 87,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Perl",
+      "mime_type": "text/x-perl",
+      "mode": "perl",
+      "ext": "pl"
+    }
+  },
+  {
+    "pk": 88,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "PHP",
+      "mime_type": "text/x-php",
+      "mode": "php",
+      "ext": "php"
+    }
+  },
+  {
+    "pk": 89,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Pig",
+      "mime_type": "text/x-pig",
+      "mode": "pig",
+      "ext": "pig"
+    }
+  },
+  {
+    "pk": 90,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Plain Text",
+      "mime_type": "text/plain",
+      "mode": "null",
+      "ext": "txt",
+      "optgroup": "cm"
+    }
+  },
+  {
+    "pk": 91,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "PLSQL",
+      "mime_type": "text/x-plsql",
+      "mode": "sql",
+      "ext": "pls"
+    }
+  },
+  {
+    "pk": 92,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "PowerShell",
+      "mime_type": "application/x-powershell",
+      "mode": "powershell",
+      "ext": "ps1"
+    }
+  },
+  {
+    "pk": 93,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Properties files",
+      "mime_type": "text/x-properties",
+      "mode": "properties",
+      "ext": "properties"
+    }
+  },
+  {
+    "pk": 94,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "ProtoBuf",
+      "mime_type": "text/x-protobuf",
+      "mode": "protobuf",
+      "ext": "proto"
+    }
+  },
+  {
+    "pk": 95,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Python",
+      "mime_type": "text/x-python",
+      "mode": "python",
+      "ext": "py",
+      "optgroup": "cm"
+    }
+  },
+  {
+    "pk": 96,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Puppet",
+      "mime_type": "text/x-puppet",
+      "mode": "puppet",
+      "ext": "pp"
+    }
+  },
+  {
+    "pk": 97,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Q",
+      "mime_type": "text/x-q",
+      "mode": "q",
+      "ext": "q"
+    }
+  },
+  {
+    "pk": 98,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "R",
+      "mime_type": "text/x-rsrc",
+      "mode": "r",
+      "ext": "r"
+    }
+  },
+  {
+    "pk": 99,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "reStructuredText",
+      "mime_type": "text/x-rst",
+      "mode": "rst",
+      "ext": "rst"
+    }
+  },
+  {
+    "pk": 100,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "RPM Changes",
+      "mime_type": "text/x-rpm-changes",
+      "mode": "rpm"
+    }
+  },
+  {
+    "pk": 101,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "RPM Spec",
+      "mime_type": "text/x-rpm-spec",
+      "mode": "rpm",
+      "ext": "spec"
+    }
+  },
+  {
+    "pk": 102,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Ruby",
+      "mime_type": "text/x-ruby",
+      "mode": "ruby",
+      "ext": "rb"
+    }
+  },
+  {
+    "pk": 103,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Rust",
+      "mime_type": "text/x-rustsrc",
+      "mode": "rust",
+      "ext": "rs"
+    }
+  },
+  {
+    "pk": 104,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "SAS",
+      "mime_type": "text/x-sas",
+      "mode": "sas",
+      "ext": "sas"
+    }
+  },
+  {
+    "pk": 105,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Sass",
+      "mime_type": "text/x-sass",
+      "mode": "sass",
+      "ext": "sass"
+    }
+  },
+  {
+    "pk": 106,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Scala",
+      "mime_type": "text/x-scala",
+      "mode": "clike",
+      "ext": "scala"
+    }
+  },
+  {
+    "pk": 107,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Scheme",
+      "mime_type": "text/x-scheme",
+      "mode": "scheme",
+      "ext": "scm"
+    }
+  },
+  {
+    "pk": 108,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "SCSS",
+      "mime_type": "text/x-scss",
+      "mode": "css",
+      "ext": "scss",
+      "optgroup": "cm"
+    }
+  },
+  {
+    "pk": 109,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Shell",
+      "mime_type": "text/x-sh",
+      "mode": "shell",
+      "ext": "sh"
+    }
+  },
+  {
+    "pk": 110,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Sieve",
+      "mime_type": "application/sieve",
+      "mode": "sieve",
+      "ext": "siv"
+    }
+  },
+  {
+    "pk": 111,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Slim",
+      "mime_type": "text/x-slim",
+      "mode": "slim",
+      "ext": "slim"
+    }
+  },
+  {
+    "pk": 112,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Smalltalk",
+      "mime_type": "text/x-stsrc",
+      "mode": "smalltalk",
+      "ext": "st"
+    }
+  },
+  {
+    "pk": 113,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Smarty",
+      "mime_type": "text/x-smarty",
+      "mode": "smarty",
+      "ext": "tpl"
+    }
+  },
+  {
+    "pk": 114,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Solr",
+      "mime_type": "text/x-solr",
+      "mode": "solr"
+    }
+  },
+  {
+    "pk": 115,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "SML",
+      "mime_type": "text/x-sml",
+      "mode": "mllike",
+      "ext": "sml"
+    }
+  },
+  {
+    "pk": 116,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Soy",
+      "mime_type": "text/x-soy",
+      "mode": "soy",
+      "ext": "soy"
+    }
+  },
+  {
+    "pk": 117,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "SPARQL",
+      "mime_type": "application/sparql-query",
+      "mode": "sparql",
+      "ext": "rq"
+    }
+  },
+  {
+    "pk": 118,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Spreadsheet",
+      "mime_type": "text/x-spreadsheet",
+      "mode": "spreadsheet"
+    }
+  },
+  {
+    "pk": 119,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "SQL",
+      "mime_type": "text/x-sql",
+      "mode": "sql",
+      "ext": "sql"
+    }
+  },
+  {
+    "pk": 120,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "SQLite",
+      "mime_type": "text/x-sqlite",
+      "mode": "sql"
+    }
+  },
+  {
+    "pk": 121,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Squirrel",
+      "mime_type": "text/x-squirrel",
+      "mode": "clike",
+      "ext": "nut"
+    }
+  },
+  {
+    "pk": 122,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Stylus",
+      "mime_type": "text/x-styl",
+      "mode": "stylus",
+      "ext": "styl"
+    }
+  },
+  {
+    "pk": 123,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Swift",
+      "mime_type": "text/x-swift",
+      "mode": "swift",
+      "ext": "swift"
+    }
+  },
+  {
+    "pk": 124,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "sTeX",
+      "mime_type": "text/x-stex",
+      "mode": "stex"
+    }
+  },
+  {
+    "pk": 125,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "LaTeX",
+      "mime_type": "text/x-latex",
+      "mode": "stex",
+      "ext": "text"
+    }
+  },
+  {
+    "pk": 126,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "SystemVerilog",
+      "mime_type": "text/x-systemverilog",
+      "mode": "verilog",
+      "ext": "v"
+    }
+  },
+  {
+    "pk": 127,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Tcl",
+      "mime_type": "text/x-tcl",
+      "mode": "tcl",
+      "ext": "tcl"
+    }
+  },
+  {
+    "pk": 128,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Textile",
+      "mime_type": "text/x-textile",
+      "mode": "textile",
+      "ext": "textile"
+    }
+  },
+  {
+    "pk": 129,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "TiddlyWiki ",
+      "mime_type": "text/x-tiddlywiki",
+      "mode": "tiddlywiki"
+    }
+  },
+  {
+    "pk": 130,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Tiki wiki",
+      "mime_type": "text/tiki",
+      "mode": "tiki"
+    }
+  },
+  {
+    "pk": 131,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "TOML",
+      "mime_type": "text/x-toml",
+      "mode": "toml",
+      "ext": "toml"
+    }
+  },
+  {
+    "pk": 132,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Tornado",
+      "mime_type": "text/x-tornado",
+      "mode": "tornado"
+    }
+  },
+  {
+    "pk": 133,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "troff",
+      "mime_type": "text/troff",
+      "mode": "troff",
+      "ext": "1"
+    }
+  },
+  {
+    "pk": 134,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "TTCN",
+      "mime_type": "text/x-ttcn",
+      "mode": "ttcn",
+      "ext": "ttcn"
+    }
+  },
+  {
+    "pk": 135,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "TTCN_CFG",
+      "mime_type": "text/x-ttcn-cfg",
+      "mode": "ttcn-cfg",
+      "ext": "cfg"
+    }
+  },
+  {
+    "pk": 136,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Turtle",
+      "mime_type": "text/turtle",
+      "mode": "turtle",
+      "ext": "ttl"
+    }
+  },
+  {
+    "pk": 137,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "TypeScript",
+      "mime_type": "application/typescript",
+      "mode": "javascript",
+      "ext": "ts"
+    }
+  },
+  {
+    "pk": 138,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "TypeScript-JSX",
+      "mime_type": "text/typescript-jsx",
+      "mode": "jsx",
+      "ext": "tsx"
+    }
+  },
+  {
+    "pk": 139,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Twig",
+      "mime_type": "text/x-twig",
+      "mode": "twig"
+    }
+  },
+  {
+    "pk": 140,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Web IDL",
+      "mime_type": "text/x-webidl",
+      "mode": "webidl",
+      "ext": "webidl"
+    }
+  },
+  {
+    "pk": 141,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "VB.NET",
+      "mime_type": "text/x-vb",
+      "mode": "vb",
+      "ext": "vb"
+    }
+  },
+  {
+    "pk": 142,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "VBScript",
+      "mime_type": "text/vbscript",
+      "mode": "vbscript",
+      "ext": "vbs"
+    }
+  },
+  {
+    "pk": 143,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Velocity",
+      "mime_type": "text/velocity",
+      "mode": "velocity",
+      "ext": "vtl"
+    }
+  },
+  {
+    "pk": 144,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Verilog",
+      "mime_type": "text/x-verilog",
+      "mode": "verilog",
+      "ext": "v"
+    }
+  },
+  {
+    "pk": 145,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "VHDL",
+      "mime_type": "text/x-vhdl",
+      "mode": "vhdl",
+      "ext": "vhd"
+    }
+  },
+  {
+    "pk": 146,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Vue.js Component",
+      "mime_type": "script/x-vue",
+      "mode": "vue",
+      "ext": "vue"
+    }
+  },
+  {
+    "pk": 147,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "XML",
+      "mime_type": "application/xml",
+      "mode": "xml",
+      "ext": "xml"
+    }
+  },
+  {
+    "pk": 148,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "XQuery",
+      "mime_type": "application/xquery",
+      "mode": "xquery",
+      "ext": "xy"
+    }
+  },
+  {
+    "pk": 149,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Yacas",
+      "mime_type": "text/x-yacas",
+      "mode": "yacas",
+      "ext": "ys"
+    }
+  },
+  {
+    "pk": 150,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "YAML",
+      "mime_type": "text/x-yaml",
+      "mode": "yaml",
+      "ext": "yaml"
+    }
+  },
+  {
+    "pk": 151,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "Z80",
+      "mime_type": "text/x-z80",
+      "mode": "z80",
+      "ext": "z80"
+    }
+  },
+  {
+    "pk": 152,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "mscgen",
+      "mime_type": "text/x-mscgen",
+      "mode": "mscgen",
+      "ext": "mscgen"
+    }
+  },
+  {
+    "pk": 153,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "xu",
+      "mime_type": "text/x-xu",
+      "mode": "mscgen",
+      "ext": "xu"
+    }
+  },
+  {
+    "pk": 154,
+    "model": "snippets.syntax",
+    "fields": {
+      "name": "msgenny",
+      "mime_type": "text/x-msgenny",
+      "mode": "mscgen",
+      "ext": "msgenny"
+    }
+  }
+]

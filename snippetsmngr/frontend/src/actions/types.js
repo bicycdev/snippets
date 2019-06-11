@@ -1,0 +1,25 @@
+export const GET_SNIPPETS = "GET_SNIPPETS";
+export const DELETE_SNIPPET = "DELETE_SNIPPET";
+export const ADD_SNIPPET = "ADD_SNIPPET";
+export const GET_SNIPPET = "GET_SNIPPET";
+export const GET_ERRORS = "GET_ERRORS";
+export const CREATE_MESSAGE = "CREATE_MESSAGE";
+export const USER_LOADING = "USER_LOADING";
+export const USER_LOADED = "USER_LOADED";
+export const AUTH_ERROR = "AUTH_ERROR";
+export const LOGIN_SUCCESS = "LOGIN_SUCCESS";
+export const LOGIN_FAIL = "LOGIN_FAIL";
+export const LOGOUT_SUCCESS = "LOGOUT_SUCCESS";
+export const REGISTER_SUCCESS = "REGISTER_SUCCESS";
+export const REGISTER_FAIL = "REGISTER_FAIL";
+export const CLEAR_SNIPPETS = 'CLEAR_SNIPPETS';
+
+export const GET_SYNTAXES = 'GET_SYNTAXES';
+export const GET_TRENDS = 'GET_TRENDS';
+
+export const TRENDS_LOADING = "TRENDS_LOADING";
+export const TRENDS_LOADED = "TRENDS_LOADED";
+
+export const GET_FILE = "GET_FILE";
+
+export const SUCCESS_UNKNOWN = "SUCCESS_UNKNOWN";

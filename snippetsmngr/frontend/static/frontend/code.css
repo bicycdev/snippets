@@ -1,0 +1,31 @@
+/* CodeMirror stuff 
+-------------------------------------------------- */
+
+.CodeMirror { height: auto; color: #1D1C1D;  }
+.CodeMirror-scroll { max-height: 750px; min-height: 700px; } 
+
+.codemirror_detail {
+  overflow: inherit;
+  /* border: 1px solid rgba(0, 0, 0, 0.15); */
+
+}
+
+
+.make-it-underlined {
+  text-decoration: underline;
+
+}
+
+.tese {
+  pointer-events: none;
+  background-color: transparent;
+  border-color: transparent;
+  color: #4a4a4a;
+  text-decoration: none;
+}
+
+
+.pre-reset {
+
+  background-color: transparent;
+}

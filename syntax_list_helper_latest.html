@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <link href="source/bins/static/bins/css/style.css" rel="stylesheet">
+</head>
+
+
+<body>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/codemirror@5.46.0/lib/codemirror.js"></script>
+
+    <div id="id_syntax">
+        <button class="btn btn-primary" type="submit" >Generate Syntax List</button>
+    </div>
+    <div id="id_loading" style="display: none; height: 24px; border:0;">
+    <img src="http://i1.wp.com/cdnjs.cloudflare.com/ajax/libs/galleriffic/2.0.1/css/loader.gif" height="100%">
+    </div>
+
+ <div id="done"> </div>
+
+
+    <div>
+    <pre style="margin-top: 50px;"><code id="id_code"></code></pre>
+    </div>
+
+    <script src="https://unpkg.com/codemirror@5.46.0/mode/meta.js"></script>
+    
+    
+    <script>
+    // uses list of codemirror modes form codemirror/mode/meta.js
+    // .getModes added by me
+    CodeMirror.getModes = function() {
+        var fixture = [];
+        var model = "snippets.syntax";
+        var opt_list = ['CSS', 'HTML', 'Plain Text', 'Python', 'SCSS'];
+
+        for (var i = 0; i < CodeMirror.modeInfo.length; i++) {
+            var pk = i + 1;
+            var info = CodeMirror.modeInfo[i];
+            var optgroup = '';
+
+            if (opt_list.indexOf(info.name) !== -1) {     
+                optgroup = 'cm';
+            } 
+            var object_dict = {
+                    "pk": pk,
+                    "model": model,
+                    "fields": {
+                        "name": info.name,
+                        "mime_type": info.mime,
+                        'mode': info.mode,
+                }
+            };
+
+            if (info.ext) {
+                object_dict.fields.ext = info.ext[0];
+            } 
+
+            if (optgroup) {
+               object_dict.fields.optgroup = optgroup;
+            } 
+
+            fixture.push(object_dict);
+
+        }
+
+    return JSON.stringify(fixture, null, 2);
+};  
+
+    </script>
+    <script type="text/javascript">
+    $("#id_syntax").click(function() {
+        var result = CodeMirror.getModes();     
+        var data = "text/json;charset=utf-8," + encodeURIComponent(result);
+
+        $("#id_syntax").hide();
+        $("#id_loading").show();
+        $("#id_code").hide();
+        $("#id_code").html(result);
+        $("#id_code").show(250, function () { 
+            $("#id_loading").hide();
+            $("#done").html('Done <br/>');    
+            $('<a href="data:' + data + '" download="syntax_list.json">Download JSON</a>').appendTo('#done');
+        });
+    });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,5 @@
+django
+djangorestframework
+django-rest-knox
+django-debug-toolbar
+django-rest-swagger

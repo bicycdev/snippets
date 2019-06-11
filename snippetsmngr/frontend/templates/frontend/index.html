@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel='stylesheet' href='https://unpkg.com/bulma@0.7.4/css/bulma.min.css'>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">    
+
+  <link rel="stylesheet" href="https://unpkg.com/codemirror@5.46.0/lib/codemirror.css">
+  <link rel="stylesheet" href="https://unpkg.com/codemirror@5.46.0/theme/material.css">
+  
+ 
+ 
+ 
+  {% load static %}
+  <link rel='stylesheet' href="{% static "frontend/prism.css" %} ">
+  <link rel='stylesheet' href="{% static "frontend/cheatsheet.css" %} ">
+  <link rel='stylesheet' href="{% static "frontend/code.css" %} ">
+  <title>Default </title>
+</head>
+<body>
+  <div id="app"></div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/prism.js'></script>
+  <script src="{% static "frontend/main.js" %}"></script>
+  <script>
+    window.addEventListener('resize', () => {
+    const divs = document.querySelectorAll(".menu-list");
+    if (window.innerWidth < 768){
+      divs.forEach(div => div.classList.add("tags"));
+    }
+    else {
+      divs.forEach(div => div.classList.remove("tags"));
+    }
+  });
+  </script>  
+  
+</body>
+</html>
