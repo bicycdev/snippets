@@ -26,8 +26,6 @@ def generate_hash():
         # url_hash = ''.join(random.sample(string.ascii_letters + string.digits, 8))
         # uuid_number = uuid.uuid4().hex[:8]
         # upper, lower = uuid_number[:6].upper(), uuid_number[-2:].lower()
-        # letter chance is the same 1/2 = 1/4;
-        # number chance is lower: 1/2 to 1/4;
         weighted_sample = (string.ascii_uppercase * 2
                            + string.ascii_lowercase + string.digits)
         url_hash = ''.join(random.sample(weighted_sample, 8))
@@ -130,12 +128,12 @@ class Snippet(models.Model):
     def __str__(self):
         return self.title
 
-    # returns the url for the specific bin
+    # returns the url for the specific snippet
     def get_absolute_url(self):
         return reverse('snippets:detail', kwargs={'uuid_hash': self.url_hash})
 
     def save(self, *args, **kwargs):
-        # self.pk is url_hash in bin
+        # self.pk is url_hash in snippet
         # this method supports slug change if title is updated
         if not Snippet.objects.filter(pk=self.pk, title=self.title).exists():
             preslug = self.title
