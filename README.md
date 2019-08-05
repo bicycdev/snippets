@@ -11,6 +11,10 @@ Snippets uses a number of open source projects to work properly:
 * Bulma - CSS framework used
 * General project approach based on the open source bradtraversy/lead_manager_react_django github project.
 
+### Quick demo adding a snippet
+
+![](demo.gif)
+
 ### Local Installation and Development
 
 pip and nodejs are used in this project.
